@@ -98,20 +98,49 @@ article {
     padding: 20px;
     flex-wrap: wrap;
     border: #0ca7d6;
+    
+    
   }
   
 .article left {
     padding-left: 20px;
-    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .article right {
     justify-content: center;
-    text-align:left
+    text-align:left;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
 }
 .columns {
     justify-content: center;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.flexbox {
+  align-items: center;
+  justify-items: center;
+  padding-left: 100px;
+}
+
+.zoomin {
+  width: 150px;
+  height: 150%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.zoomin img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+
+}
+
+.zoomin:hover img {
+  transform: scale(1.5);
 }
 
 footer {
@@ -124,21 +153,21 @@ footer {
 
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
-/* For Ipads and Tablets */
+/* media screen for Ipads and Tablets */
 @media screen and (max-width: 992px) {
     header {
       background: #78d4f0;
     }
   }
   
-  /* Large smartphones  */
+  /* for larger smartphones  */
   @media screen and (max-width: 768px) {
     nav {
       background-color: #e9e63e;
     }
   }
   
-  /* Small smartphones  */
+  /* small smartphones  */
   @media screen and (max-width: 576px) {
     .sample-img {
       background-color: #8ac4ff;
