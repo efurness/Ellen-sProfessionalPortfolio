@@ -11,9 +11,16 @@ body {
 
 }
 
+header {
+    width: 100%;
+    padding: 20px;
+    position:relative;
 
+
+    
+}
 .navigation {
-    position: fixed;
+
     top: 0;
     left: -100%;
     width: 100%;
@@ -27,7 +34,7 @@ body {
 
 .banner {
     position: relative;
-    width: 50%;
+    width: 100%;
     height: 100%;
 
 }
@@ -62,7 +69,7 @@ body {
 
 .navLink ul li a {
     position: relative;
-    color:blue;
+    color:rgb(19, 235, 109);
     font-size: 2em;
     font-weight: 200;
     text-decoration: none;
@@ -79,3 +86,51 @@ body {
     color: rgb(14, 171, 233);
 }
 
+container {
+    display: flex;
+  }
+  
+article {
+    flex: 50%;
+    background-color: #b9c6ae;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+
+
+.row {
+    align-items: center;
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #0d7be2;
+    color: #fff;
+  }
+
+  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  
