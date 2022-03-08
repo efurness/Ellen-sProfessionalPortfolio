@@ -108,11 +108,17 @@ article {
 }
 
 .article right {
-    justify-content: center;
+    justify-content: left;
     text-align:left;
     font-style: italic;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
+}
+.components {
+  height: 100px;
+  padding-top: 25px;
+
+
 }
 .columns {
     justify-content: center;
