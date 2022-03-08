@@ -114,16 +114,11 @@ article {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
 }
-.components {
-  height: 100px;
-  padding-top: 25px;
 
-
-}
 .columns {
     justify-content: center;
     padding-top: 20px;
-    padding-left: 25px;
+    padding-left: 100px;
 }
 
 .flexbox {
