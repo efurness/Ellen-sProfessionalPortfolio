@@ -9,7 +9,7 @@ This project had me develop a Portfolio webpage from scratch. It has a simple de
 
 [Deployed Application] https://efurness.github.io/Unit2-Advanced-CSS-Portfolio/
 
-[GitHub Repository] git@github.com:efurness/Unit2-Advanced-CSS-Portfolio.git
+[GitHub Repository] https://github.com/efurness/Unit2-Advanced-CSS-Portfolio.git
 
 [Project screenshot](assets/images/horses.gif) 
 
