@@ -4,21 +4,24 @@
     margin: 0;
 
 }
-
+/* above is the global paramets */
+/* The body has one propery,font-family, the universal property for the page */
 body {
     
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
+/* The header is relative for the banner at 100% width. */
+/* The header is relative for the banner at 100% width. */
 header {
     width: 100%;
     padding: 20px;
     position:relative;
-
-
-    
+  
 }
+
+/* the navigation is display flex and centered in the header, it loads before the header */
+ /* I took out position fixed so it would float on top. */  
 .navigation {
 
     top: 0;
@@ -31,7 +34,9 @@ header {
     align-items: center;
     transition: 1s;
 }
+/* I used cursive to complement the Assategue background image with a background color of cadet blue. */
 
+/* cover means it will transparently lie over the image. */
 .banner {
     position: relative;
     width: 100%;
@@ -40,7 +45,7 @@ header {
     font-family: cursive;
 
 }
-
+/* cover means it will transparently lie over the image. */
 .cover {
     position: absolute;
     top: 0;
@@ -49,7 +54,7 @@ header {
     height: 100%;
     object-fit: cover;
 }
-
+/* The navigation links are positioned relative and displayed flex and aligned center. */
 .navLink {
     position: relative;
     width: 50%;
@@ -69,6 +74,7 @@ header {
 
 }
 
+/* The link color is a light green, also relative and displayed inline block, capitalized to have a large effect for the page with 1 pixel between the letters. */
 .navLink ul li a {
     position: relative;
     color:rgb(19, 235, 109);
@@ -87,11 +93,11 @@ header {
 .navLink ul li a:hover {
     color: rgb(14, 171, 233);
 }
-
+/* I made a container with display flex to contain a left article and right article, both at 50% to fit whole page.  */
 container {
     display: flex;
   }
-  
+  /* like above I gave the articles a light beige green and flex-wrap - wrap. */
 article {
     flex: 50%;
     background-color: #b9c6ae;
@@ -101,7 +107,7 @@ article {
     
     
   }
-  
+      /* I used two different font families for the articles, with Impact for the left and gothic for right. */
 .article left {
     padding-left: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -114,7 +120,7 @@ article {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
 }
-
+/* I used a flexbox for the columns */
 .columns {
     justify-content: center;
     padding-top: 20px;
@@ -127,23 +133,26 @@ article {
   padding-left: 100px;
 }
 
+
 .zoomin {
   width: 150px;
   height: 150%;
   overflow: hidden;
   margin: auto;
 }
-
+/* I used a zoom in effect so when you pass over image it floats and forces the adjacent images to also change. */
 .zoomin img {
   width: 100%;
   transition: 0.5s all ease-in-out;
 
 }
 
+
+/* hovering over image is for 1s and ease in and out and transforms to a scale of 1.5 */
 .zoomin:hover img {
   transform: scale(1.5);
 }
-
+/* the footer has an opposite effect of the header text. */
 footer {
     padding: 20px;
     text-align: center;
@@ -153,7 +162,6 @@ footer {
   }
 
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-
 /* media screen for Ipads and Tablets */
 @media screen and (max-width: 992px) {
     header {
