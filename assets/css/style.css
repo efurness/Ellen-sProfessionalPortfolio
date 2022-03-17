@@ -133,6 +133,11 @@ article {
   padding-left: 100px;
 }
 
+.rotate {
+
+  transform: rotate(45deg);
+  background-color: #8ac4ff;
+}
 
 .zoomin {
   width: 150px;
@@ -147,10 +152,15 @@ article {
 
 }
 
-
 /* hovering over image is for 1s and ease in and out and transforms to a scale of 1.5 */
 .zoomin:hover img {
   transform: scale(1.5);
+}
+
+h5 {
+  text-align: center;
+  padding-right: 5px;
+  font-family: cursive;
 }
 /* the footer has an opposite effect of the header text. */
 footer {
