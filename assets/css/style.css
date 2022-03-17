@@ -8,8 +8,8 @@
 /* The body has one propery,font-family, the universal property for the page */
 body {
     
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
 }
 /* The header is relative for the banner at 100% width. */
 /* The header is relative for the banner at 100% width. */
@@ -93,6 +93,23 @@ header {
 .navLink ul li a:hover {
     color: rgb(14, 171, 233);
 }
+h2 {
+  text-align: left;
+  font-family: cursive;
+  color:midnightblue
+}
+
+h3 {
+font-family: cursive;
+color: rgb(12, 63, 233);
+
+}
+h5 {
+  text-align: center;
+  padding-right: 5px;
+  font-family: cursive;
+}
+
 /* I made a container with display flex to contain a left article and right article, both at 50% to fit whole page.  */
 container {
     display: flex;
@@ -157,11 +174,6 @@ article {
   transform: scale(1.5);
 }
 
-h5 {
-  text-align: center;
-  padding-right: 5px;
-  font-family: cursive;
-}
 /* the footer has an opposite effect of the header text. */
 footer {
     padding: 20px;
