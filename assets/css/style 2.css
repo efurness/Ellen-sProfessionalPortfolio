@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+/* above is the global paramets */
+/* The body has one propery,font-family, the universal property for the page */
+body {
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+/* The header is relative for the banner at 100% width. */
+/* The header is relative for the banner at 100% width. */
+header {
+    width: 100%;
+    padding: 20px;
+    position:relative;
+  
+}
+
+/* the navigation is display flex and centered in the header, it loads before the header */
+ /* I took out position fixed so it would float on top. */  
+.navigation {
+
+    top: 0;
+    left: -100%;
+    width: 100%;
+    width: 100vh;
+    display: flex;
+    background:white;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+/* I used cursive to complement the Assategue background image with a background color of cadet blue. */
+
+/* cover means it will transparently lie over the image. */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: cadetblue;
+    font-family: cursive;
+
+}
+/* cover means it will transparently lie over the image. */
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* The navigation links are positioned relative and displayed flex and aligned center. */
+.navLink {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navLink ul {
+    position: relative;
+    width: 100%;
+}
+.navLink ul li {
+    position: relative;
+    list-style: none;
+    
+
+}
+
+/* The link color is a light green, also relative and displayed inline block, capitalized to have a large effect for the page with 1 pixel between the letters. */
+.navLink ul li a {
+    position: relative;
+    color:rgb(19, 235, 109);
+    font-size: 2em;
+    font-weight: 200;
+    text-decoration: none;
+    margin:5px 0;
+    margin-left: 100p;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+
+}
+
+.navLink ul li a:hover {
+    color: rgb(14, 171, 233);
+}
+h2 {
+  text-align: left;
+  font-family: cursive;
+  color:midnightblue
+}
+
+h3 {
+font-family: cursive;
+color: rgb(12, 63, 233);
+
+}
+h5 {
+  text-align: center;
+  padding-right: 5px;
+  font-family: cursive;
+}
+
+/* I made a container with display flex to contain a left article and right article, both at 50% to fit whole page.  */
+container {
+    display: flex;
+  }
+  /* like above I gave the articles a light beige green and flex-wrap - wrap. */
+article {
+    flex: 50%;
+    background-color: #b9c6ae;
+    padding: 20px;
+    flex-wrap: wrap;
+    border: #0ca7d6;
+    
+    
+  }
+      /* I used two different font families for the articles, with Impact for the left and gothic for right. */
+.article left {
+    padding-left: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.article right {
+    justify-content: left;
+    text-align:left;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+/* I used a flexbox for the columns */
+.columns {
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.flexbox {
+  align-items: center;
+  justify-items: center;
+  padding-left: 100px;
+}
+
+.rotate {
+
+  transform: rotate(45deg);
+  background-color: #8ac4ff;
+}
+
+.zoomin {
+  width: 150px;
+  height: 150%;
+  overflow: hidden;
+  margin: auto;
+}
+/* I used a zoom in effect so when you pass over image it floats and forces the adjacent images to also change. */
+.zoomin img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+
+}
+
+/* hovering over image is for 1s and ease in and out and transforms to a scale of 1.5 */
+.zoomin:hover img {
+  transform: scale(1.5);
+}
+
+/* the footer has an opposite effect of the header text. */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: cadetblue;
+    color: white;
+    font-family: cursive;
+  }
+
+  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+/* media screen for Ipads and Tablets */
+@media screen and (max-width: 992px) {
+    header {
+      background: #78d4f0;
+    }
+  }
+  
+  /* for larger smartphones  */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #e9e63e;
+    }
+  }
+  
+  /* small smartphones  */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  

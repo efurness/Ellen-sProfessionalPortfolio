@@ -15,7 +15,7 @@ This project had me develop a Portfolio webpage from scratch. The navigation tar
 
 ## Contact
 
-Ellen Furness - [Ellen.Furness@du.edu]
+Ellen F.
 
 ## Acknowledgments
 
