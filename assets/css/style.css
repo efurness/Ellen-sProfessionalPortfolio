@@ -172,6 +172,7 @@ footer {
     background: white;
     color: cadetblue;
     font-family: cursive;
+    font-size:larger;
   }
 
   /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
