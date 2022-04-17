@@ -7,9 +7,9 @@ This project had me develop a Portfolio webpage that is constantly updating with
 
 ## Review
 
-[Deployed Application] https://efurness.github.io/Unit2-Advanced-CSS-Portfolio/
+[Deployed Application] https://efurness.github.io/Ellen-sProfessionalPortfolio/
 
-[GitHub Repository] https://github.com/efurness/Unit2-Advanced-CSS-Portfolio.git
+[GitHub Repository] https://github.com/efurness/Ellen-sProfessionalPortfolio.git
 
 [Project screenshot](assets/images/horses.gif) 
 
