@@ -15,7 +15,7 @@ This project had me develop a Portfolio webpage that is constantly updating with
 
 ## Contact
 
-Ellen F.
+Ellen.Furness.du.edu
 
 ## Acknowledgments
 
