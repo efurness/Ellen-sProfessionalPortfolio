@@ -2,7 +2,7 @@
 
 ### Description 
 
-This project had me develop a Portfolio webpage from scratch. The navigation target topics down the page about my background, a bio, education and profession.  On the bottom of page are images in column format in which you can hover over and it zooms over image.  Included in the unit are css style sheet, images, and an index page along with pdfs  There are live links on the page. In the future I will put current projects from the DU bootcamp for web development.
+This project had me develop a Portfolio webpage that is constantly updating with projects, resume and supurb homework.  I used Bootsrap for the cards, textboxes but finished them on my own, adding styles and aligning them into the webpage and structuring them to operate with my education and professional experience with links to my conservation work and to lead the user for a new experience of my pursuits and passions.  The layout works on many media screens and for a mobile the experience cards sequence down the page, with my projects, resume and class assignments following in synchronous way.  I chose keeping the header Assateaugee image of horses because it compliments the rest of the webpage, draws the audience in as the start of a story.
 
 
 ## Review
@@ -21,7 +21,7 @@ Ellen F.
 
 List of resources and websites
 
-* [Geeks](https://practice.geeksforgeeks.org/)
+* [Bootstrap](https://getbootstrap.com/)
 * [W3Schools](https://www.w3schools.com/)
 * [9 elements](https://9elements.com/)
 * [Tutor](https://bootcampspot.com/)
