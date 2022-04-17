@@ -119,7 +119,7 @@ h5 {
 }
 h6 {
   font-family: cursive;
-  font-size: small;
+  font-size: medium;
 }
 /* I made a container with display flex to contain a left article and right article, both at 50% to fit whole page.  */
 container {
