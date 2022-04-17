@@ -2,7 +2,7 @@
 
 ### Description 
 
-This project had me develop a Portfolio webpage that is constantly updating with projects, resume and supurb homework.  I used Bootsrap for the cards, textboxes but finished them on my own, adding styles and aligning them into the webpage and structuring them to operate with my education and professional experience with links to my conservation work and to lead the user for a new experience of my pursuits and passions.  The layout works on many media screens and for a mobile experience the cards sequence down the page, with my projects, resume and class assignments following in synchronous way.  I choose keeping the header Assateaugue image of horses because it compliments the rest of the webpage, draws the audience in as the start of a story.
+This project had me develop a Portfolio webpage that is constantly updating with projects, resume and superb homework.  I used Bootsrap for the cards, textboxes but finished them on my own, adding styles and aligning them into the webpage and structuring them to operate with my education and professional experience with links to my conservation work and to lead the user for a new experience of my pursuits and passions.  The layout works on many media screens and for a mobile experience the cards sequence down the page, with my projects, resume and class assignments following in synchronous way.  I choose keeping the header Assateaugue image of horses because it compliments the rest of the webpage, draws the audience in as the start of a story.
 
 
 ## Review
