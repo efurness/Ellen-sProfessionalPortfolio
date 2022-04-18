@@ -11,7 +11,10 @@ This project had me develop a Portfolio webpage that is constantly updating with
 
 [GitHub Repository] https://github.com/efurness/Ellen-sProfessionalPortfolio.git
 
-[Project screenshot](assets/images/horses.gif) 
+[Project screenshot gif](assets/images/horses.gif) 
+[Project screencastify gif](assets/images/porfolio.gif) 
+[Weather app gif](assets/images/weather.png) 
+
 
 ## Contact
 
