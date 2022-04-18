@@ -175,26 +175,3 @@ footer {
     font-size:larger;
     font-weight: bolder;
   }
-
-  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-/* media screen for Ipads and Tablets */
-@media screen and (max-width: 992px) {
-    header {
-      background: #78d4f0;
-    }
-  }
-  
-  /* for larger smartphones  */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #e9e63e;
-    }
-  }
-  
-  /* small smartphones  */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
-  
