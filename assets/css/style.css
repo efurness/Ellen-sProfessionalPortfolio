@@ -111,6 +111,10 @@ font-family: cursive;
 color: rgb(12, 63, 233);
 
 }
+h4 {
+  font-weight: bold;
+  color:rgb(41, 202, 208);
+}
 h5 {
   text-align: center;
   padding-right: 5px;
