@@ -19,7 +19,9 @@ header {
     position:relative;
   
 }
-
+h3 span {
+  text-align: right;
+}
 /* the navigation is display flex and centered in the header, it loads before the header */
  /* I took out position fixed so it would float on top. */  
 .navigation {
