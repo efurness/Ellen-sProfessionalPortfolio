@@ -112,9 +112,12 @@ color: rgb(12, 63, 233);
 
 }
 h4 {
-  font-weight: bold;
-  color:rgb(41, 202, 208);
+  font-weight: bolder;
+  color:cadetblue;
+  font-family: cursive;
+  
 }
+
 h5 {
   text-align: center;
   padding-right: 5px;
