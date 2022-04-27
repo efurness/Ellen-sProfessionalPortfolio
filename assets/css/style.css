@@ -59,7 +59,7 @@ h3 span {
 }
 /* The navigation links are positioned relative and displayed flex and aligned center. */
 .navLink {
-    position: relative;
+    position:sticky;
     width: 50%;
     height: 100%;
     display: flex;
@@ -74,6 +74,7 @@ h3 span {
 }
 .navLink ul li {
     position: relative;
+    display: flex;
     list-style: none;
     font-weight: bold;
     
@@ -84,7 +85,7 @@ h3 span {
 .navLink ul li a {
     position: relative;
     color:rgb(19, 235, 109);
-    font-size: 2em;
+    font-size: flex;
     font-weight: 400;
     text-decoration: none;
     margin:5px 0;
