@@ -2,7 +2,7 @@
 
 ### Description 
 
-This project had me develop a Portfolio webpage that is constantly updating with projects, resume and superb homework.  I used Bootsrap for the cards, textboxes but finished them on my own, adding styles and aligning them into the webpage and structuring them to operate with my education and professional experience with links to my conservation work and to lead the user for a new experience of my pursuits and passions.  The layout works on many media screens and for a mobile experience the cards sequence down the page, with my projects, resume and class assignments following in synchronous way.  I choose keeping the header Assateaugue image of horses because it compliments the rest of the webpage, draws the audience in as the start of a story.
+This Portfolio website is a project that is constantly updating with projects, resume and superb homework.  I used Bootsrap for the cards, textboxes but finished them on my own, adding styles and aligning them into the webpage and structuring them to operate with my education and professional experience with links to my conservation work.  It was important to lead the user for a new experience of my pursuits and passions.  The layout is a mobile responsive experience with cards that sequence down the page, with my projects, resume and class assignments following in synchronous way.  I choose keeping the header Assateaugue image of horses because it compliments the rest of the webpage, draws the audience in as the start of a story of my background and goals.
 
 
 ## Review
@@ -13,7 +13,7 @@ This project had me develop a Portfolio webpage that is constantly updating with
 
 [Portfolio mp4](https://drive.google.com/file/d/1RFaw2TwS3s18Et8j2Kx_RKpeCS0xLQnV/view) 
 
-[Weather app gif](assets/images/weather.png) 
+[Weather Dashboard](assets/images/weather.png) 
 
 
 ## Contact

@@ -100,6 +100,10 @@ h3 span {
     color: rgb(14, 171, 233);
 }
 
+.lead mb-0 {
+  color: cadetblue;
+}
+
 h2 {
   text-align: left;
   font-family:inherit;
@@ -113,7 +117,7 @@ color: rgb(12, 63, 233);
 }
 h4 {
   font-weight: bolder;
-  color:rgb(41, 202, 208);
+  color:rgb(44, 41, 208);
   font-family: cursive;
   
 }
@@ -128,6 +132,7 @@ h5 {
 }
 h6 {
   font-family: cursive;
+  color:rgb(18, 50, 232);
   font-size: medium;
 }
 /* I made a container with display flex to contain a left article and right article, both at 50% to fit whole page.  */
@@ -135,8 +140,17 @@ container {
     display: flex;
   }
 .card {
-  background-color:rgb(23, 231, 158);
+  background-color: cadetblue;
 }
+
+.btn btn-primary {
+  background-color: chartreuse;
+
+}
+.list-inline mb-2 {
+  color:blueviolet;
+}
+
 /* I used a flexbox for the columns */
 .columns {
     justify-content: center;
@@ -181,6 +195,20 @@ footer {
     background: white;
     color: cadetblue;
     font-family: cursive;
-    font-size:larger;
+    font-size:x-large;
     font-weight: bolder;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+  body {
+    
+    background-color: white;
+    color: black;
+    
   }
