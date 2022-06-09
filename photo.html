@@ -26,7 +26,13 @@
 
 <body>
     
-   <header><h4><a href="index.html">My Portfolio</a></h4></header>
+   <header><h4><a href="index.html">My Portfolio</a></h4>
+    <h6 id="DarkModetext">Dark Mode is OFF</h6>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+
+
+</header>
    
                 
     <!-- I used flexbox to contain the images -->
@@ -149,7 +155,20 @@
         </section>
     </container>
     <!-- footer contains a statement, a copy right and description of banner image -->
-    
+    <script>
+        function darkMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "dark-mode";
+          content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "light-mode";
+          content.innerText = "Dark Mode is OFF";
+        }
+      </script>
 </body>
 
 </html>
