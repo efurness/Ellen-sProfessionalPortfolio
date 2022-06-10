@@ -11,7 +11,7 @@ This Portfolio website is a project that is constantly updating with projects, r
   - [Contributing](#contributing)
   - [License](#license)
   - [Deployed To ](#deployed-to)
-  - [Contact](#contact-me)
+  - [Contact](#contact)
 
 ## DEPLOYED TO
 
