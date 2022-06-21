@@ -13,13 +13,13 @@ This Portfolio website is a project that is constantly updating with projects, r
   - [Deployed To ](#deployed-to)
   - [Contact](#contact)
 
-## DEPLOYED TO
+<!-- ## DEPLOYED TO -->
 
-[Deployed Application] https://efurness.github.io/Ellen-sProfessionalPortfolio/
+<!-- [Deployed Application] https://efurness.github.io/Ellen-sProfessionalPortfolio/ -->
 
-[GitHub Repository] https://github.com/efurness/Ellen-sProfessionalPortfolio.git
+<!-- [GitHub Repository] https://github.com/efurness/Ellen-sProfessionalPortfolio.git
 
-[Portfolio mp4](https://drive.google.com/file/d/1RFaw2TwS3s18Et8j2Kx_RKpeCS0xLQnV/view) 
+[Portfolio mp4](https://drive.google.com/file/d/1RFaw2TwS3s18Et8j2Kx_RKpeCS0xLQnV/view)  -->
 
 [Weather Dashboard](assets/images/weather.png) 
 
@@ -38,9 +38,9 @@ Solo Project, Contributors welcome
 
 ## Contact
 
-* For additional help or questions about collaboration, please reach out to [Ellen.Furness@du.edu]
+<!-- * For additional help or questions about collaboration, please reach out to [Ellen.Furness@du.edu] -->
 
-* Follow me on Github at [efurness](http://github.com/efurness)
+<!-- * Follow me on Github at [efurness](http://github.com/efurness) -->
 
 ## Acknowledgments
 
